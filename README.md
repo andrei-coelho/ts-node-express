@@ -60,13 +60,13 @@ nodemon.json
 package.json
 ```json
 {
-    ...
+    //...
     "main": "server/server.js",
     "scripts": {
         "dev": "nodemon src/server.ts",
         "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
     }
-    ...
+    // ...
 }
 ```
